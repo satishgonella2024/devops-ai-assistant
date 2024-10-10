@@ -1,8 +1,19 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.so
+# Ignore virtual environments
+venv/
 
-# Data and model files (can be large)
-data/
+# Ignore Python package installations
+*.egg-info/
+.eggs/
+
+# Ignore large cache and temporary directories
+.cache/
+__pycache__/
+
+# Ignore log files and temporary data
+*.log
+logs/
+tmp/
+
+# Ignore model files
 models/
+data/
